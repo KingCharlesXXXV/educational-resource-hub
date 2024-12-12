@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Educational Resource Hub Application</title>
+
+		<!-- Bootstrap Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/5796775e7d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+
+	</head>
+	<body>
+		
+		<!-- Navbar -->
+        
+        <nav class = "navbar navbar-expand-lg navbar-dark bg-dark sticky-top " id="nav-container">
+            <div class = "container-fluid">
+            	<a class="navbar-brand " href="#home">KC LIBRARY</a>
+                <button class = "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls = "navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+                <div class = "collapse navbar-collapse" id="navbarNav">
+                    <ul class = "d-flex d-grid gap-5 navbar-nav ms-auto me-5">
+
+                        <li class = "nav-item">
+                                <a class="nav-link active" aria-current="page" href = "#home">HOME</a>
+                        </li>
+
+                         <li class = "nav-item">
+                                <a class="nav-link" href = "#categories-section">CATEGORIES</a>
+                        </li>
+
+                        <li class = "nav-item">
+                                <a class="nav-link" href = "#about">ABOUT</a>
+                        </li>
+
+                        <li class = "nav-item">
+                                <a class="nav-link" href = "#contact">CONTACT</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <!-- HOME SECTION -->
+        
+        <section id="home" class="bg-light py-5 text-center">
+        	<div id="introduction" class="container">
+        	    <h2>Welcome to the Educational Resource Hub</h2>
+        	    <p class="lead">Find resources, tutorials, and guides to support your learning journey.</p>
+        	</div>
+
+        	<div id="featured" class="py-5">
+        	    <div class="container">
+	        	    <h3 class="text-center mb-4">Featured Resources</h3>
+	        	    <div class="row">
+	        	        <!-- Card 1 -->
+	        	        <div class="col-md-4 mb-4 d-flex">
+		        	        <div class="card">
+		        	            <img src="https://res.cloudinary.com/highereducation/image/upload/v1/BestValueSchools.com/uploads/2014/01/general-education-courses.jpg" class="card-img-top" alt="Resource 1">
+		        	            <div class="card-body">
+		        	              	<h5 class="card-title">General Educational Focus</h5>
+		        	              	<p class="card-text">Resources covering a broad range of subjects to support foundational learning and personal growth.</p>
+		        	              	<a href="#" class="btn btn-primary">Learn More</a>
+		        	            </div>
+		        	        </div>
+	        	        </div>
+	        	        <!-- Card 2 -->
+	        	        <div class="col-md-4 mb-4 d-flex">
+	        	          	<div class="card">
+	        	            	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbFIpiMFhGSSaRRXGV882hUdyozq0HsuiTQ&s" class="card-img-top" alt="Resource 2">
+	        	            	<div class="card-body">
+	        	              		<h5 class="card-title">STEM (Science, Technology, Engineering, Math) Focus</h5>
+	        	              		<p class="card-text">Hands-on tools, experiments, and guides to spark curiosity and develop problem-solving skills in STEM fields.</p>
+	        	              		<a href="#" class="btn btn-primary">Learn More</a>
+	        	            	</div>
+	        	          	</div>
+	        	        </div>
+	        	        <!-- Card 3 -->
+	        	        <div class="col-md-4 mb-4 d-flex">
+	        	          	<div class="card">
+	        	            	<img src="https://media.licdn.com/dms/image/v2/D4D12AQEIavHQO6sOQg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1675146429075?e=2147483647&v=beta&t=AhRmETdCG1DcMffNrTs45QZ35c7MCbq4o_O-clZxRrw" class="card-img-top" alt="Resource 3">
+	        	            	<div class="card-body">
+	        	              		<h5 class="card-title">Professional Skills and Career Development</h5>
+	        	              		<p class="card-text">ractical tools and courses to enhance workplace skills and boost career opportunities.</p>
+	        	              		<a href="#" class="btn btn-primary">Learn More</a>
+	        	            	</div>
+	        	          	</div>
+	        	        </div>
+	        	    </div>
+        	    </div>
+        	</div> 	
+        </section>
+
+        <!-- END OF HOME -->
+        
+        <!-- CATEGORIES SECTION -->
+        
+        <section id="categories-section" class="py-5">
+	        <div class="container">
+	            <h3 class="text-center mb-4">Browse by Category</h3>
+	            <div class="row">
+	              	<!-- Category 1: General Education -->
+	              	<div class="col-md-4 mb-4 d-flex flex-column" id="category">
+	                	<div class="card h-100">
+		                  	<img src="https://www.trilliumcollege.ca/wp-content/uploads/2017/03/CT-BlogPost-Specializedvsgeneraleducation.jpg" class="card-img-top " alt="General Education">
+		                  	<div class="card-body">
+			                    <h5 class="card-title">General Education</h5>
+			                    <p class="card-text">Explore a wide range of foundational learning materials covering multiple subjects.</p>
+			                    <a href="#" class="btn btn-primary">Explore Resources</a>
+		                  	</div>
+	                	</div>
+		                <ul class="list-group list-group-flush mt-3" id="resources">
+		                  	<li class="list-group-item">Introduction to Philosophy</li>
+		                  	<li class="list-group-item">World History Basics</li>
+		                	<li class="list-group-item">Introduction to Literature</li>
+		                </ul>
+	              	</div>
+
+	              <!-- Category 2: STEM -->
+	              	<div class="col-md-4 mb-4 d-flex flex-column" id="category">
+		                <div class="card h-100">
+		                	<img src="https://www.goldenarrow.com/sites/default/files/2022-03/STEM_-03.png" class="card-img-top" alt="STEM">
+		                  	<div class="card-body">
+			                    <h5 class="card-title">STEM Resources</h5>
+			                    <p class="card-text">Engage with interactive guides and experiments across Science, Technology, Engineering, and Math.</p>
+		                    	<a href="#" class="btn btn-primary">Explore Resources</a>
+		                  	</div>
+		                </div>
+		                <ul class="list-group list-group-flush mt-3" id="resources">
+			                <li class="list-group-item">Intro to Coding</li>
+			                <li class="list-group-item">Basic Chemistry Experiments</li>
+			                <li class="list-group-item">Mathematical Problem-Solving</li>
+		                </ul>
+	              	</div>
+
+	              <!-- Category 3: Career Development -->
+	              	<div class="col-md-4 mb-4 d-flex flex-column" id="category">
+		                <div class="card h-100">
+		                  	<img src="https://ce.ccsu.edu/wp-content/uploads/2018/09/professional-development-3.jpg" class="card-img-top" alt="Career Development">
+			                <div class="card-body">
+			                    <h5 class="card-title">Career Development</h5>
+			                    <p class="card-text">Access resources that enhance your workplace skills, from communication to leadership.</p>
+			                    <a href="#" class="btn btn-primary">Explore Resources</a>
+			                </div>
+		                </div>
+	                	<ul class="list-group list-group-flush mt-3" id="resources">
+		                	<li class="list-group-item">Resume Writing Tips</li>
+		                	<li class="list-group-item">Mastering Job Interviews</li>
+		                	<li class="list-group-item">Effective Communication Skills</li>
+	                	</ul>
+	              	</div>
+	            </div>
+	        </div>
+        </section>
+
+        <!-- END OF CATEGORIES -->
+
+        <!-- ABOUT SECTION -->
+        
+        <section id="about" class="py-5 bg-light">
+          <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq1snYEY6mosUB9xC8EQ6il-m9ZOrLYFcAhg&s" alt="About Us Image" class="img-fluid rounded shadow w-50">
+              </div>
+              <div class="col-md-6">
+                <p class="lead">
+                  Welcome to the Educational Resource Hub! Our mission is to empower learners of all ages with high-quality resources and tools to support their educational journey. Whether you're a student, teacher, or lifelong learner, we provide carefully curated content to help you succeed.
+                </p>
+                <p>
+                  Explore our vast collection of tutorials, guides, and interactive materials designed to make learning engaging and accessible. Join our community and take the next step in your learning adventure!
+                </p>
+                <a href="#contact" class="btn btn-primary mt-3">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- END OF ABOUT -->
+
+        <!-- CONTACT -->
+        <section id="contact" class="py-5">
+          <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row g-4">
+              <!-- Contact Form -->
+              <div class="col-md-6">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Type your message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+              </div>
+              
+              <!-- Contact Details -->
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <h5>Address</h5>
+                  <p>123 Educational Street, Knowledge City, Learnland</p>
+                </div>
+                <div class="mb-3">
+                  <h5>Email</h5>
+                  <p><a href="mailto:info@educationalhub.com">info@educationalhub.com</a></p>
+                </div>
+                <div class="mb-3">
+                  <h5>Phone</h5>
+                  <p><a href="tel:+1234567890">+1 234 567 890</a></p>
+                </div>
+                <div>
+                  <h5>Follow Us</h5>
+                  <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="text-dark mx-2">
+                        <i class="fab fa-facebook fa-2x proj" aria-hidden="true"></i>
+                    </a>
+                  <a href="http://www.twitter.com/" target="_blank" rel="noopener noreferrer" class="text-dark mx-2">
+                        <i class="fab fa-twitter fa-2x proj" aria-hidden="true"></i>
+                    </a>
+                  <a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="text-dark mx-2">
+                        <i class="fab fa-instagram fa-2x proj" aria-hidden="true"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- END OF CONTACT -->
+
+		<!-- START OF FOOTER -->
+		<footer class="pt-5 mt-5 d-flex flex-column justify-content-center text-white bg-dark">
+            <p class="text-center mb-0">KC Library || Educational Resource Hub</p>
+            <p class="text-center mt-1">For Educational Purposes Only. &copy;2024</p>
+        </footer>
+        <!-- END OF FOOTER -->
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
